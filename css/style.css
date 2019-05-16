@@ -7,9 +7,9 @@
 
 body {
   background-color: #ffff80;
-  background-image: url('https://raw.githubusercontent.com/notdeana/notdeana.github.io/master/rY6j2n.gif');
-  background-size: cover;
-  background-repeat: no-repeat;
+  font-size:15pt;
+  font-family: 'Dosis', sans-serif;
+  color: #ff6666
 
 }
 
