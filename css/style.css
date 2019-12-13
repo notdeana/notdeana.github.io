@@ -70,8 +70,9 @@ h1 {
   display: block; /* Change the display to block, for responsive reasons (see below) */
   color: #85ffeb; /* White text color */
   text-align: center; /* Center the text */
-  padding: 14px 20px; /* Add some padding */
+  padding: 14px 10px; /* Add some padding */
   text-decoration: none; /* Remove underline */
+  font-size:17.4pt;
 }
 
 /* Right-aligned link */
