@@ -9,7 +9,7 @@ body {
   background-color: #ffedf8;
   background-image: url('https://raw.githubusercontent.com/notdeana/notdeana.github.io/master/rY6j2n.gif');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 
 
 
@@ -72,7 +72,7 @@ h1 {
   text-align: center; /* Center the text */
   padding: 14px 10px; /* Add some padding */
   text-decoration: none; /* Remove underline */
-  font-size:17.4pt;
+  font-size:17.1pt;
 }
 
 /* Right-aligned link */
