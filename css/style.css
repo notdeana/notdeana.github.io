@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Mitr');
 
   *{
   margin:0;
@@ -6,17 +6,19 @@
 }
 
 body {
-  background-color: #ffff80;
+  background-color: #ffedf8;
   background-image: url('https://raw.githubusercontent.com/notdeana/notdeana.github.io/master/rY6j2n.gif');
   background-size: cover;
   background-repeat: no-repeat;
 
+
+
   height: 100vh;
-   padding:0;
-   margin:0;
-   font-size:15pt;
-   font-family: 'Dosis', sans-serif;
-   color: #043077
+  padding:0;
+  margin:0;
+  font-size:15pt;
+  font-family: 'Mitr', sans-serif;
+  color: #a70fff;
 
 }
 
@@ -40,17 +42,75 @@ body {
 }
 
 .links a {
-    color: #ff6666;
-    background: #ffff80;
+    color: 043077;
+    background: #ff006e;
     padding: 0px;
 }
 
 h1 {
-   font-size:50pt;
+   font-size:20pt;
  }
  h2 {
-   font-size:35pt;
+   font-size:25pt;
  }
  h3 {
-   font-size:20pt;
+   font-size:30pt;
+}
+
+/* Style the top navigation bar */
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color: #ff8a8a; /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: #85ffeb; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #ce63ff; /* Grey background color */
+  color: #85ffeb; /* Black text color */
+}
+
+
+/* Ensure proper sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%; /* Set the width of the sidebar */
+  background-color: #ffcfcf; /* Grey background color */
+  padding: 20px; /* Some padding */
+  opacity: 0.8
+}
+
+/* Main column */
+.main {
+  flex: 70%; /* Set the width of the main content */
+  background-color: #bdfff8; /* White background color */
+  padding: 20px; /* Some padding */
+  opacity: 0.8
+
 }
